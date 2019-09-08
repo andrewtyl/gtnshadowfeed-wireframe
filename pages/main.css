@@ -224,6 +224,97 @@ body > main > #tos, #tos, #tos-register {
     margin-top: 5vw;
 }
 
+#main-holder > #newsFeed, #main-holder > #favorites {
+    display: none;
+}
+
+#mainSearch > form > label {
+    font-size: 5vw;
+    width: 25%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+#mainSearch > form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mainSearch > form > select {
+    width: 65%;
+    margin-right: 5%;
+}
+
+#mainSearch > form > input[type=text] {
+    width: 40%;
+    margin-right: 5%;
+}
+
+#mainSearch > .searchResultList {
+    display: flex;
+    justify-content: center;
+}
+
+#mainSearch > .searchResultList > .searchResult {
+    color: black;
+    align-self: center;
+    margin-left: 20px;
+    font-size: 7vw;
+    width: 60%;
+}
+
+#main-holder {
+    margin-top: 50px;
+}
+
+#mainSearch > form > select {
+    margin-bottom: 7vw;
+}
+
+#mainSearch > form > input {
+    margin-bottom: 7vw;
+}
+
+#mainSearch > form > button {
+    height: 7vw;
+    line-height: 6vw;
+}
+
+#main-footer {
+    margin-top: 100px;
+}
+
+#mainSearch > .searchResultList > a > img {
+    width: 100%;
+}
+#mainSearch > .searchResultList > a {
+    width: 20%;
+}
+
+#newsfeed-mobile > h4 {
+    font-size: 8vw;
+}
+
+#newsfeed-mobile > ul > li {
+    margin-bottom: 50px;
+    font-size: 5.5vw;
+}
+
+#favorites-mobile > h4 {
+    font-size: 8vw;
+}
+
+#favorites-mobile > ul > li {
+    font-size: 5.5vw;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+#favorites-mobile > ul > li::before {
+    content: "\2605";
+    color: gold;
+}
+
 @media screen and (min-width: 700px) {
     #headerImgB {
         width: 90%;
@@ -308,6 +399,44 @@ body > main > #tos, #tos, #tos-register {
         font-size: 3.5vw;
     }
 
+    #mainSearch > form > select {
+        height: 5vw;
+        font-size: 4vw;
+    }
+
+    #mainSearch > form > input {
+        font-size: 4vw;
+        height: 5vw;
+    }
+
+    #mainSearch > form > button {
+        height: 6vw;
+        font-size: 4vw;
+    }
+
+    #mainSearch > .searchResultList > .searchResult {
+        margin-left: 50px;
+        font-size: 6vw;
+    }
+
+    #newsfeed-mobile > h4 {
+        font-size: 6vw;
+    }
+    
+    #newsfeed-mobile > ul > li {
+        margin-bottom: 50px;
+        font-size: 3vw;
+    }
+
+    #favorites-mobile > h4 {
+        font-size: 6vw;
+    }
+    
+    #favorites-mobile > ul > li {
+        font-size: 4vw;
+        margin-bottom: 50px;
+    }
+
 }
 
 @media screen and (min-width: 1100px) {
@@ -319,6 +448,11 @@ body > main > #tos, #tos, #tos-register {
 #desktopNav > a {
     text-decoration: none;
     color: black;
+    font-size: 1vw;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #desktopNav > a:hover {
@@ -429,7 +563,7 @@ body > main > #tos, #tos {
     width: 80%;
     margin-left: 9.8%;
     margin-right: 9.8%;
-    height: 400px;
+    height: 300px;
     font-size: 1vw;
     resize: none;
 }
@@ -448,6 +582,107 @@ body > main > #tos, #tos {
 }
 
 #register-form > button {
+    font-size: 2vw;
+}
+
+#main-holder > #newsFeed, #main-holder > #favorites {
+    display: block;
+}
+
+#main-holder {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#main-holder > #newsFeed, #main-holder > #favorites, #main-holder > #mainSearch {
+    width: 30%;
+}
+
+#favorites > h4 {
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+#favorites > ul > li {
+    margin-top: 10px;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#favorites > ul {
+    border: 1px solid black;
+    margin-top: 0px;
+    height: 600px;
+}
+
+#favorites > ul > li::before {
+    content: "\2605";
+    color: gold;
+}
+
+#newsFeed > h4 {
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+#newsFeed > #newsFeedPlaceholder {
+    margin-top: 0px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+#mainSearch > form > label {
+    font-size: 2vw;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#mainSearch > form > select {
+    margin-top: 50px;
+    height: 2vw;
+    font-size: 1.5vw;
+    width: 60%;
+    margin-bottom: 0px;
+}
+
+#mainSearch > form > input[type=text] {
+    height: 2vw;
+    font-size: 1.5vw;
+    margin-bottom: 0px;
+    width: 60%;
+    margin-top: 50px;
+}
+
+#mainSearch > form > button {
+    height: 3vw;
+    font-size: 2vw;
+    line-height: 2vw;
+    margin-top: 50px;
+}
+
+#mainSearch > form {
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+#main-holder {
+    margin-top: 0px;
+}
+
+#mainSearch {
+    margin-top: 30px;
+}
+
+#mainSearch > .searchResultList > .searchResult {
     font-size: 2vw;
 }
 
