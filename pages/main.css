@@ -315,6 +315,84 @@ body > main > #tos, #tos, #tos-register {
     color: gold;
 }
 
+#item-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#item-main > #favoriteIcon {
+    color: gold;
+    text-align: right;
+    font-size: 15vw;
+    width: 15%;
+    margin-right: 1%;
+    order: 1;
+}
+
+#item-main > #favoriteIcon:hover {
+    cursor: pointer;
+}
+
+#item-main > #item-graph-holder {
+    width: 70%;
+    height: 400px;
+    margin-top: 1vw;
+    margin-left: 10%;
+    margin-right: 1%;
+    order: 0;
+    margin-bottom: 5vw;
+}
+
+#item-main > #item-graph-holder > #item-graph-img {
+    width: 100%;
+    height: 100%;
+}
+
+#item-main > #item-menu {
+    order: 2;
+    border: 1px solid black;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+#item-main > #item-menu > #item-menu-content {
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+}
+
+#item-main > #item-menu > #item-menu-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#item-main > #item-menu > #item-menu-nav > button {
+    background-color: darkgray;
+    border: 1px solid black;
+    width: 100%;
+    border-bottom: 3px solid black;
+    font-size: 4vw;
+}
+
+#item-main > #item-menu > #item-menu-nav > button:hover { 
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#item-main > #item-menu > #item-menu-nav > #selectedNavButton {
+    background-color: lightgray;
+    cursor: default;
+}
+
 @media screen and (min-width: 700px) {
     #headerImgB {
         width: 90%;
@@ -435,6 +513,10 @@ body > main > #tos, #tos, #tos-register {
     #favorites-mobile > ul > li {
         font-size: 4vw;
         margin-bottom: 50px;
+    }
+
+    #item-main > #item-menu > #item-menu-nav > button {
+        font-size: 3.25vw;
     }
 
 }
@@ -684,6 +766,78 @@ body > main > #tos, #tos {
 
 #mainSearch > .searchResultList > .searchResult {
     font-size: 2vw;
+}
+
+#item-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#item-main > #favoriteIcon {
+    color: gold;
+    text-align: right;
+    font-size: 4vw;
+    width: 3%;
+    margin-right: 1%;
+    order: 1;
+}
+
+#item-main > #favoriteIcon:hover {
+    cursor: pointer;
+}
+
+#item-main > #item-graph-holder {
+    width: 70%;
+    margin-top: 1vw;
+    margin-left: 15%;
+    margin-right: 11%;
+    order: 0;
+    margin-bottom: 5vw;
+}
+
+#item-main > #item-menu {
+    order: 2;
+    border: 1px solid black;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+#item-main > #item-menu > #item-menu-content {
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+}
+
+#item-main > #item-menu > #item-menu-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#item-main > #item-menu > #item-menu-nav > button {
+    background-color: darkgray;
+    border: 1px solid black;
+    width: 100%;
+    border-bottom: 3px solid black;
+    font-size: 1.5vw;
+}
+
+#item-main > #item-menu > #item-menu-nav > button:hover { 
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#item-main > #item-menu > #item-menu-nav > #selectedNavButton {
+    background-color: lightgray;
+    cursor: default;
 }
 
 }
