@@ -393,6 +393,77 @@ body > main > #tos, #tos, #tos-register {
     cursor: default;
 }
 
+#database-options-main > form {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+}
+
+#database-options-main > form > label {
+    width: 100%;
+    text-align: center;
+    font-size: 8vw;
+}
+
+#database-options-main > form > select {
+    height: 10vw;
+    font-size: 5vw;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 30%;
+}
+
+#database-options-main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#database-options-main > #databaseKey > textarea {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    font-size: 5vw;
+    resize: none;
+    border: black 1px solid;
+}
+
+#database-options-main > #databaseKey > span {
+    width: 100%;
+    text-align: center;
+    font-size: 7vw;
+    margin-bottom: 1%;
+}
+
+#database-options-main > #databaseKey {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#database-options-main > button {
+    width: 50%;
+    font-size: 6vw;
+    height: 20vw;
+    margin-top: 10vw;
+}
+
+#database-options-footer {
+    margin-top: 100px;
+}
+
 @media screen and (min-width: 700px) {
     #headerImgB {
         width: 90%;
@@ -517,6 +588,34 @@ body > main > #tos, #tos, #tos-register {
 
     #item-main > #item-menu > #item-menu-nav > button {
         font-size: 3.25vw;
+    }
+
+    #database-options-footer {
+        margin-top: 200px;
+    }
+
+    #database-options-main > form > label {
+        font-size: 5vw;
+    }
+
+    #database-options-main > form > select {
+        font-size: 3vw;
+        height: 5vw;
+        margin-bottom: 15%;
+    }
+
+    #database-options-main > #databaseKey > span {
+        font-size: 4vw;
+    }
+
+    #database-options-main > #databaseKey > textarea {
+        font-size: 3vw;
+        height: 100px;
+    }
+
+    #database-options-main > button {
+        font-size: 4vw;
+        height: 10vw;
     }
 
 }
@@ -838,6 +937,75 @@ body > main > #tos, #tos {
 #item-main > #item-menu > #item-menu-nav > #selectedNavButton {
     background-color: lightgray;
     cursor: default;
+}
+
+#database-options-main > form {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+}
+
+#database-options-main > form > label {
+    width: 35%;
+    text-align: right;
+    margin-right: 5%;
+    font-size: 2vw;
+}
+
+#database-options-main > form > select {
+    height: 2vw;
+    font-size: 1.5vw;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+#database-options-main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#database-options-main > #databaseKey > textarea {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 250px;
+    font-size: 1vw;
+    resize: none;
+}
+
+#database-options-main > #databaseKey > span {
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#database-options-main > #databaseKey {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+    margin-top: 4vw;
+}
+
+#database-options-main > button {
+    width: 20%;
+    font-size: 2vw;
+    height: 3vw;
+    margin-top: 5vw;
+    align-self: center;
+}
+
+#database-options-footer {
+    margin-top: 250px;
 }
 
 }
