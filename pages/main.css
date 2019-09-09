@@ -464,6 +464,53 @@ body > main > #tos, #tos, #tos-register {
     margin-top: 100px;
 }
 
+#addNewDatabase-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#addNewDatabase-main > h4 {
+    font-size: 8vw;
+    margin-top: 5vw;
+}
+
+#addNewDatabase-main > #addNewDatabase-form > textarea {
+    resize: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    margin-bottom: 10vw;
+    font-size: 4vw;
+}
+
+#addNewDatabase-main > #addNewDatabase-form  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#addNewDatabase-main > #addNewDatabase-form > label {
+    width: 100%;
+    text-align: center;
+    font-size: 6.5vw;
+    margin-bottom: 5vw;
+}
+
+#addNewDatabase-main > #addNewDatabase-form > button {
+    width: 50%;
+    height: 10vw;
+    font-size: 7vw;
+}
+
+#addNewDatabase-footer {
+    margin-top: 100px;
+}
+
 @media screen and (min-width: 700px) {
     #headerImgB {
         width: 90%;
@@ -616,6 +663,28 @@ body > main > #tos, #tos, #tos-register {
     #database-options-main > button {
         font-size: 4vw;
         height: 10vw;
+    }
+
+    #addNewDatabase-main > h4 {
+        font-size: 5vw;
+    }
+
+    #addNewDatabase-main > #addNewDatabase-form > label {
+        font-size: 4vw;
+    }
+
+    #addNewDatabase-main > #addNewDatabase-form > textarea {
+        font-size: 3vw;
+    }
+
+    #addNewDatabase-main > #addNewDatabase-form > button {
+        font-size: 4vw;
+        width: 40%;
+        height: 7vw;
+    }
+
+    #addNewDatabase-footer {
+        margin-top: 200px;
     }
 
 }
@@ -1006,6 +1075,32 @@ body > main > #tos, #tos {
 
 #database-options-footer {
     margin-top: 250px;
+}
+
+#addNewDatabase-main > h4 {
+    font-size: 3vw;
+    margin-top: 1vw;
+}
+
+#addNewDatabase-main > #addNewDatabase-form > label {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+#addNewDatabase-main > #addNewDatabase-form > textarea {
+    font-size: 1vw;
+    height: 150px;
+    margin-bottom: 5vw;
+}
+
+#addNewDatabase-main > #addNewDatabase-form > button {
+    font-size: 2vw;
+    width: 15%;
+    height: 3vw;
+}
+
+#addNewDatabase-footer {
+    margin-top: 150px;
 }
 
 }
